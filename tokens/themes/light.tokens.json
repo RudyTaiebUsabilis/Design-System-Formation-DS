@@ -1,0 +1,1543 @@
+{
+  "$description": "Thème Light : tokens sémantiques de couleur (mode « Light » de la collection Figma « J3 · Color »).",
+  "color": {
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Fond de page et des surfaces principales.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/default",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-default)"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.neutral.50}",
+        "$description": "Fond discret : zones secondaires, en-têtes de tableau.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-subtle)"
+            }
+          }
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond atténué : survol des éléments neutres, champs inactifs.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/muted",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-muted)"
+            }
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Fond inversé : tooltips, toasts.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/inverse",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-inverse)"
+            }
+          }
+        }
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.brand.600}",
+        "$description": "Fond de l’action principale (CTA).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/brand",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-brand)"
+            }
+          }
+        }
+      },
+      "brand-hover": {
+        "$type": "color",
+        "$value": "{color.brand.700}",
+        "$description": "Fond de l’action principale au survol.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/brand-hover",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-brand-hover)"
+            }
+          }
+        }
+      },
+      "brand-subtle": {
+        "$type": "color",
+        "$value": "{color.brand.50}",
+        "$description": "Fond léger de marque : sélection, badge, mise en avant.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/brand-subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-brand-subtle)"
+            }
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Fond plein d’erreur / action destructive.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/error",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-error)"
+            }
+          }
+        }
+      },
+      "error-subtle": {
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Fond d’alerte erreur.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/error-subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-error-subtle)"
+            }
+          }
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.amber.400}",
+        "$description": "Fond plein d’avertissement (texte foncé dessus).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/warning",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-warning)"
+            }
+          }
+        }
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{color.amber.50}",
+        "$description": "Fond d’alerte avertissement.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/warning-subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-warning-subtle)"
+            }
+          }
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.600}",
+        "$description": "Fond plein de succès.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/success",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-success)"
+            }
+          }
+        }
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{color.green.50}",
+        "$description": "Fond d’alerte succès.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/success-subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-success-subtle)"
+            }
+          }
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Fond plein d’information.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/info",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-info)"
+            }
+          }
+        }
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "{color.blue.50}",
+        "$description": "Fond d’alerte information.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/info-subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-info-subtle)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond d’un élément désactivé.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/disabled",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-disabled)"
+            }
+          }
+        }
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "{color.alpha.black-60}",
+        "$description": "Voile derrière une modale.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/overlay",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-overlay)"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond d’une action secondaire (Button secondary, Tag secondary).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/secondary",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-secondary)"
+            }
+          }
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Fond d’une action secondaire au survol.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/secondary-hover",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-secondary-hover)"
+            }
+          }
+        }
+      },
+      "error-hover": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Fond d’une action destructive au survol.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/error-hover",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-error-hover)"
+            }
+          }
+        }
+      },
+      "toggle-off": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Piste d’un switch désactivé (off).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/toggle-off",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-toggle-off)"
+            }
+          }
+        }
+      },
+      "toggle-thumb": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Pastille d’un switch.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "bg/toggle-thumb",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-toggle-thumb)"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.950}",
+        "$description": "Texte principal.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/default",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-default)"
+            }
+          }
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.600}",
+        "$description": "Texte secondaire : aides, légendes.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/muted",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-muted)"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$description": "Texte tertiaire : placeholders, métadonnées.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/subtle",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-subtle)"
+            }
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Texte posé sur bg/inverse.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/inverse",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-inverse)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$description": "Texte d’un élément désactivé.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/disabled",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-disabled)"
+            }
+          }
+        }
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.brand.600}",
+        "$description": "Texte de marque : mise en avant.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/brand",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-brand)"
+            }
+          }
+        }
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Texte posé sur bg/brand.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/on-brand",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-on-brand)"
+            }
+          }
+        }
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{color.brand.700}",
+        "$description": "Lien.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/link",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-link)"
+            }
+          }
+        }
+      },
+      "link-hover": {
+        "$type": "color",
+        "$value": "{color.brand.800}",
+        "$description": "Lien au survol.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/link-hover",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-link-hover)"
+            }
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Message d’erreur.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/error",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-error)"
+            }
+          }
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.amber.700}",
+        "$description": "Message d’avertissement.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/warning",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-warning)"
+            }
+          }
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.700}",
+        "$description": "Message de succès.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/success",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-success)"
+            }
+          }
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$description": "Message d’information.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/info",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-info)"
+            }
+          }
+        }
+      },
+      "on-status": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Texte posé sur bg/error, bg/success, bg/info.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/on-status",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-on-status)"
+            }
+          }
+        }
+      },
+      "on-warning": {
+        "$type": "color",
+        "$value": "{color.neutral.950}",
+        "$description": "Texte posé sur bg/warning.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "text/on-warning",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-on-warning)"
+            }
+          }
+        }
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.800}",
+        "$description": "Icône principale.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/default",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-default)"
+            }
+          }
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$description": "Icône secondaire.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/muted",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-muted)"
+            }
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Icône posée sur bg/inverse.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/inverse",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-inverse)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.300}",
+        "$description": "Icône désactivée.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/disabled",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-disabled)"
+            }
+          }
+        }
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.brand.600}",
+        "$description": "Icône de marque.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/brand",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-brand)"
+            }
+          }
+        }
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Icône posée sur bg/brand.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/on-brand",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-on-brand)"
+            }
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Icône d’erreur.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/error",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-error)"
+            }
+          }
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.amber.600}",
+        "$description": "Icône d’avertissement.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/warning",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-warning)"
+            }
+          }
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.600}",
+        "$description": "Icône de succès.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/success",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-success)"
+            }
+          }
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Icône d’information.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/info",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-info)"
+            }
+          }
+        }
+      },
+      "on-status": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Icône posée sur bg/error, bg/success, bg/info.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/on-status",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-on-status)"
+            }
+          }
+        }
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{color.brand.700}",
+        "$description": "Icône d’un lien (même teinte que text/link).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "icon/link",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-icon-link)"
+            }
+          }
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Contour et séparateur par défaut.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/default",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-default)"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Séparateur discret.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/subtle",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-subtle)"
+            }
+          }
+        }
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$description": "Contour de champ, élément à fort contraste.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/strong",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-strong)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Contour d’un élément désactivé.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/disabled",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-disabled)"
+            }
+          }
+        }
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.brand.600}",
+        "$description": "Contour de marque : sélection active.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/brand",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-brand)"
+            }
+          }
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.brand.500}",
+        "$description": "Contour au focus clavier.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/focus",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-focus)"
+            }
+          }
+        }
+      },
+      "focus-ring": {
+        "$type": "color",
+        "$value": "{color.alpha.brand-30}",
+        "$description": "Anneau de focus (3 px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/focus-ring",
+            "scopes": [
+              "STROKE_COLOR",
+              "EFFECT_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-focus-ring)"
+            }
+          }
+        }
+      },
+      "error-ring": {
+        "$type": "color",
+        "$value": "{color.alpha.red-20}",
+        "$description": "Anneau de focus d’un élément en erreur ou destructif (3 px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/error-ring",
+            "scopes": [
+              "STROKE_COLOR",
+              "EFFECT_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-error-ring)"
+            }
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Contour d’un champ en erreur.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/error",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-error)"
+            }
+          }
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.amber.500}",
+        "$description": "Contour d’avertissement.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/warning",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-warning)"
+            }
+          }
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.600}",
+        "$description": "Contour de succès.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/success",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-success)"
+            }
+          }
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Contour d’information.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "border/info",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-info)"
+            }
+          }
+        }
+      }
+    },
+    "dataviz": {
+      "categorical-1": {
+        "$type": "color",
+        "$value": "{color.brand.500}",
+        "$description": "Série 1 (catégorielle). Toujours dans cet ordre.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-1",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-1)"
+            }
+          }
+        }
+      },
+      "categorical-2": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Série 2 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-2",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-2)"
+            }
+          }
+        }
+      },
+      "categorical-3": {
+        "$type": "color",
+        "$value": "{color.teal.500}",
+        "$description": "Série 3 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-3",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-3)"
+            }
+          }
+        }
+      },
+      "categorical-4": {
+        "$type": "color",
+        "$value": "{color.amber.500}",
+        "$description": "Série 4 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-4",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-4)"
+            }
+          }
+        }
+      },
+      "categorical-5": {
+        "$type": "color",
+        "$value": "{color.violet.600}",
+        "$description": "Série 5 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-5",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-5)"
+            }
+          }
+        }
+      },
+      "categorical-6": {
+        "$type": "color",
+        "$value": "{color.orange.600}",
+        "$description": "Série 6 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-6",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-6)"
+            }
+          }
+        }
+      },
+      "categorical-7": {
+        "$type": "color",
+        "$value": "{color.cyan.600}",
+        "$description": "Série 7 (catégorielle).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-7",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-7)"
+            }
+          }
+        }
+      },
+      "categorical-8": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$description": "Série 8 / « Autres ».",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/categorical-8",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-categorical-8)"
+            }
+          }
+        }
+      },
+      "sequential-1": {
+        "$type": "color",
+        "$value": "{color.brand.100}",
+        "$description": "Échelle séquentielle : valeur la plus faible.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/sequential-1",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-sequential-1)"
+            }
+          }
+        }
+      },
+      "sequential-2": {
+        "$type": "color",
+        "$value": "{color.brand.300}",
+        "$description": "Échelle séquentielle : palier 2.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/sequential-2",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-sequential-2)"
+            }
+          }
+        }
+      },
+      "sequential-3": {
+        "$type": "color",
+        "$value": "{color.brand.500}",
+        "$description": "Échelle séquentielle : palier 3.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/sequential-3",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-sequential-3)"
+            }
+          }
+        }
+      },
+      "sequential-4": {
+        "$type": "color",
+        "$value": "{color.brand.700}",
+        "$description": "Échelle séquentielle : palier 4.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/sequential-4",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-sequential-4)"
+            }
+          }
+        }
+      },
+      "sequential-5": {
+        "$type": "color",
+        "$value": "{color.brand.900}",
+        "$description": "Échelle séquentielle : valeur la plus forte.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/sequential-5",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-sequential-5)"
+            }
+          }
+        }
+      },
+      "negative": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Divergente : écart négatif.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/negative",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-negative)"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{color.neutral.300}",
+        "$description": "Divergente : point neutre.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/neutral",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-neutral)"
+            }
+          }
+        }
+      },
+      "positive": {
+        "$type": "color",
+        "$value": "{color.green.600}",
+        "$description": "Divergente : écart positif.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/positive",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-positive)"
+            }
+          }
+        }
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Lignes de grille d’un graphique.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/grid",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-grid)"
+            }
+          }
+        }
+      },
+      "axis": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$description": "Axes d’un graphique.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "dataviz/axis",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-dataviz-axis)"
+            }
+          }
+        }
+      }
+    },
+    "shadow": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.alpha.black-10}",
+        "$description": "Couleur des ombres (élévation).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "shadow/default",
+            "scopes": [
+              "EFFECT_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-shadow-default)"
+            }
+          }
+        }
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.alpha.black-20}",
+        "$description": "Couleur des ombres fortes (modales, popovers).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Color",
+            "variable": "shadow/strong",
+            "scopes": [
+              "EFFECT_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-shadow-strong)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

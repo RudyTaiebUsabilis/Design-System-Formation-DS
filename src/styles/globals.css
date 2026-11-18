@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+/* Le mode sombre suit l'attribut data-theme posé sur <html> (mode « Dark » de la collection J3 · Color). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+html { color-scheme: light; }
+html[data-theme="dark"] { color-scheme: dark; }
+
+body {
+  background: var(--color-bg-default);
+  color: var(--color-text-default);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}

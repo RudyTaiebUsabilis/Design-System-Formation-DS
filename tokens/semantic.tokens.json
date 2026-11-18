@@ -1,0 +1,2080 @@
+{
+  "$description": "Tokens sémantiques J3 indépendants du thème : espacements, tailles, formes, typographie, styles composites (texte, ombres, focus). Alias vers les primitives.",
+  "spacing": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{spacing.0}",
+      "$description": "Aucun espace.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/none",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-none)"
+          }
+        }
+      }
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "{spacing.0-5}",
+      "$description": "2px — ajustements optiques.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/3xs",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-3xs)"
+          }
+        }
+      }
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{spacing.1}",
+      "$description": "4px — icône / texte compact.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/2xs",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-2xs)"
+          }
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{spacing.2}",
+      "$description": "8px — icône / libellé, éléments d’un groupe.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/xs",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-xs)"
+          }
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{spacing.3}",
+      "$description": "12px — marges internes des contrôles.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/sm",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-sm)"
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$description": "16px — marge interne par défaut des cartes et champs.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/md",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-md)"
+          }
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{spacing.6}",
+      "$description": "24px — espace entre blocs d’une section.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/lg",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-lg)"
+          }
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{spacing.8}",
+      "$description": "32px — marge interne des grands conteneurs.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/xl",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-xl)"
+          }
+        }
+      }
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{spacing.12}",
+      "$description": "48px — espace entre sections.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/2xl",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-2xl)"
+          }
+        }
+      }
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{spacing.16}",
+      "$description": "64px — espace entre grandes zones de page.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Spacing",
+          "variable": "spacing/3xl",
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--spacing-3xl)"
+          }
+        }
+      }
+    }
+  },
+  "size": {
+    "control-sm": {
+      "$type": "dimension",
+      "$value": "{spacing.8}",
+      "$description": "32px — contrôle compact (Button sm).",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/control-sm",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-control-sm)"
+          }
+        }
+      }
+    },
+    "control-md": {
+      "$type": "dimension",
+      "$value": "{spacing.9}",
+      "$description": "36px — contrôle par défaut (Button, Input).",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/control-md",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-control-md)"
+          }
+        }
+      }
+    },
+    "control-lg": {
+      "$type": "dimension",
+      "$value": "{spacing.10}",
+      "$description": "40px — contrôle large (Button lg).",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/control-lg",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-control-lg)"
+          }
+        }
+      }
+    },
+    "icon-xs": {
+      "$type": "dimension",
+      "$value": "{spacing.3}",
+      "$description": "12px — icône dans un Tag.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/icon-xs",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-icon-xs)"
+          }
+        }
+      }
+    },
+    "icon-sm": {
+      "$type": "dimension",
+      "$value": "{spacing.3-5}",
+      "$description": "14px — coche de Checkbox.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/icon-sm",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-icon-sm)"
+          }
+        }
+      }
+    },
+    "icon-md": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$description": "16px — icône dans un Button, un Input, un Link.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/icon-md",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-icon-md)"
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$description": "16px — case à cocher.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/checkbox",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-checkbox)"
+          }
+        }
+      }
+    },
+    "radio": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$description": "16px — bouton radio.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/radio",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-radio)"
+          }
+        }
+      }
+    },
+    "radio-dot": {
+      "$type": "dimension",
+      "$value": "{spacing.2}",
+      "$description": "8px — indicateur du radio coché.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/radio-dot",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-radio-dot)"
+          }
+        }
+      }
+    },
+    "switch-width": {
+      "$type": "dimension",
+      "$value": "{spacing.8}",
+      "$description": "32px — largeur de la piste du Switch.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/switch-width",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-switch-width)"
+          }
+        }
+      }
+    },
+    "switch-height": {
+      "$type": "dimension",
+      "$value": "{spacing.5}",
+      "$description": "20px — hauteur de la piste du Switch.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/switch-height",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-switch-height)"
+          }
+        }
+      }
+    },
+    "switch-thumb": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$description": "16px — pastille du Switch.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Size",
+          "variable": "size/switch-thumb",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--size-switch-thumb)"
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{radius.0}",
+      "$description": "Aucun arrondi : tableaux, éléments collés.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/none",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-none)"
+          }
+        }
+      }
+    },
+    "badge": {
+      "$type": "dimension",
+      "$value": "{radius.sm}",
+      "$description": "4px — badges, tags, checkbox.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/badge",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-badge)"
+          }
+        }
+      }
+    },
+    "control": {
+      "$type": "dimension",
+      "$value": "{radius.lg}",
+      "$description": "8px — boutons, champs, sélecteurs.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/control",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-control)"
+          }
+        }
+      }
+    },
+    "card": {
+      "$type": "dimension",
+      "$value": "{radius.xl}",
+      "$description": "12px — cartes, panneaux.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/card",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-card)"
+          }
+        }
+      }
+    },
+    "modal": {
+      "$type": "dimension",
+      "$value": "{radius.2xl}",
+      "$description": "16px — modales, popovers, drawers.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/modal",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-modal)"
+          }
+        }
+      }
+    },
+    "pill": {
+      "$type": "dimension",
+      "$value": "{radius.full}",
+      "$description": "Arrondi complet — avatars, pastilles, switch.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "radius/pill",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--radius-pill)"
+          }
+        }
+      }
+    }
+  },
+  "border-width": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{border-width.0}",
+      "$description": "Aucune bordure.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "border-width/none",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-width-none)"
+          }
+        }
+      }
+    },
+    "default": {
+      "$type": "dimension",
+      "$value": "{border-width.1}",
+      "$description": "1px — contours et séparateurs.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "border-width/default",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-width-default)"
+          }
+        }
+      }
+    },
+    "strong": {
+      "$type": "dimension",
+      "$value": "{border-width.2}",
+      "$description": "2px — sélection active, focus.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "border-width/strong",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-width-strong)"
+          }
+        }
+      }
+    },
+    "heavy": {
+      "$type": "dimension",
+      "$value": "{border-width.4}",
+      "$description": "4px — indicateur d’onglet, accent latéral.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "border-width/heavy",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-width-heavy)"
+          }
+        }
+      }
+    }
+  },
+  "opacity": {
+    "disabled": {
+      "$type": "number",
+      "$value": "{opacity.50}",
+      "$description": "Opacité d’un élément désactivé.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "opacity/disabled",
+          "scopes": [
+            "OPACITY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--opacity-disabled)"
+          }
+        }
+      }
+    },
+    "hover-overlay": {
+      "$type": "number",
+      "$value": "{opacity.5}",
+      "$description": "Voile de survol sur une surface.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "opacity/hover-overlay",
+          "scopes": [
+            "OPACITY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--opacity-hover-overlay)"
+          }
+        }
+      }
+    },
+    "pressed-overlay": {
+      "$type": "number",
+      "$value": "{opacity.10}",
+      "$description": "Voile d’appui sur une surface.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "collection": "J3 · Shape",
+          "variable": "opacity/pressed-overlay",
+          "scopes": [
+            "OPACITY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--opacity-pressed-overlay)"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "heading": {
+        "$type": "fontFamily",
+        "$value": "{font-family.sans}",
+        "$description": "Titres.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "font-family/heading",
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-heading)"
+            }
+          }
+        }
+      },
+      "body": {
+        "$type": "fontFamily",
+        "$value": "{font-family.sans}",
+        "$description": "Textes courants.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "font-family/body",
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-body)"
+            }
+          }
+        }
+      },
+      "code": {
+        "$type": "fontFamily",
+        "$value": "{font-family.mono}",
+        "$description": "Code et valeurs techniques.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "font-family/code",
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-code)"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.6xl}",
+        "$description": "Accroche de page d’accueil, écran vide. Une seule par page.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "display/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-display)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.18}",
+        "$description": "Interlignage du style Display.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "display/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-display--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.bold}",
+        "$description": "Graisse du style Display.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "display/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-display--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.tighter}",
+        "$description": "Espacement des lettres (px) du style Display.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "display/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-display--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "h1": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.5xl}",
+        "$description": "Titre de page. Un seul par page.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h1/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h1)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.14}",
+        "$description": "Interlignage du style H1.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h1/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h1--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.bold}",
+        "$description": "Graisse du style H1.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h1/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h1--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.tight}",
+        "$description": "Espacement des lettres (px) du style H1.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h1/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h1--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "h2": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.4xl}",
+        "$description": "Titre de section.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h2/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h2)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.10}",
+        "$description": "Interlignage du style H2.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h2/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h2--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.semibold}",
+        "$description": "Graisse du style H2.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h2/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h2--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.tight}",
+        "$description": "Espacement des lettres (px) du style H2.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h2/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h2--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "h3": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.3xl}",
+        "$description": "Titre de sous-section, de modale.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h3/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h3)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.9}",
+        "$description": "Interlignage du style H3.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h3/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h3--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.semibold}",
+        "$description": "Graisse du style H3.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h3/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h3--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style H3.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h3/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h3--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "h4": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.2xl}",
+        "$description": "Titre de carte, de groupe.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h4/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h4)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.8}",
+        "$description": "Interlignage du style H4.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h4/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h4--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.semibold}",
+        "$description": "Graisse du style H4.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h4/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h4--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style H4.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h4/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h4--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "h5": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.xl}",
+        "$description": "Titre de petit bloc, de liste, de panneau latéral (20px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h5/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h5)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.7}",
+        "$description": "Interlignage du style H5.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h5/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h5--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.semibold}",
+        "$description": "Graisse du style H5.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h5/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h5--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style H5.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "h5/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-h5--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "body-large": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.lg}",
+        "$description": "Texte d’introduction, chapeau, contenu éditorial (18px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-large/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-large)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.7}",
+        "$description": "Interlignage du style Body/Large.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-large/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-large--line-height)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style Body/Large.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-large/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-large--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "body-default": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.base}",
+        "$description": "Texte courant (16px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-default/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-default)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.6}",
+        "$description": "Interlignage du style Body/Default.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-default/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-default--line-height)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style Body/Default.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-default/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-default--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "body-small": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.sm}",
+        "$description": "Texte dense : tableaux, aides, descriptions (14px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-small/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-small)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.5}",
+        "$description": "Interlignage du style Body/Small.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-small/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-small--line-height)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.normal}",
+        "$description": "Espacement des lettres (px) du style Body/Small.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-small/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-body-small--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "caption": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{font-size.xs}",
+        "$description": "Légendes, métadonnées, labels de graphique (12px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "caption/font-size",
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-caption)"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{leading.4}",
+        "$description": "Interlignage du style Caption.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "caption/line-height",
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-caption--line-height)"
+            }
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.medium}",
+        "$description": "Graisse du style Caption.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "caption/font-weight",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-caption--font-weight)"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": "{tracking.wide}",
+        "$description": "Espacement des lettres (px) du style Caption.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "caption/letter-spacing",
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--text-caption--letter-spacing)"
+            }
+          }
+        }
+      }
+    },
+    "body-weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.normal}",
+        "$description": "Graisse Regular (400) des textes courants : lecture.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-weight/regular",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-weight-normal)"
+            }
+          }
+        }
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.medium}",
+        "$description": "Graisse Medium (500) : libellés, boutons, éléments interactifs.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-weight/medium",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-weight-medium)"
+            }
+          }
+        }
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": "{font-weight.semibold}",
+        "$description": "Graisse SemiBold (600) : emphase, valeurs clés, titres de tableau.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "collection": "J3 · Typography",
+            "variable": "body-weight/semibold",
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--font-weight-semibold)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "text-style": {
+    "display": {
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.display.font-size}",
+          "lineHeight": "{typography.display.line-height}",
+          "fontWeight": "{typography.display.font-weight}",
+          "letterSpacing": "{typography.display.letter-spacing}"
+        },
+        "$description": "Accroche de page d’accueil, écran vide. Une seule par page.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Display/Default"
+          }
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.h1.font-size}",
+          "lineHeight": "{typography.h1.line-height}",
+          "fontWeight": "{typography.h1.font-weight}",
+          "letterSpacing": "{typography.h1.letter-spacing}"
+        },
+        "$description": "Titre de page. Un seul par page.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Heading/H1"
+          }
+        }
+      },
+      "h2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.h2.font-size}",
+          "lineHeight": "{typography.h2.line-height}",
+          "fontWeight": "{typography.h2.font-weight}",
+          "letterSpacing": "{typography.h2.letter-spacing}"
+        },
+        "$description": "Titre de section.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Heading/H2"
+          }
+        }
+      },
+      "h3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.h3.font-size}",
+          "lineHeight": "{typography.h3.line-height}",
+          "fontWeight": "{typography.h3.font-weight}",
+          "letterSpacing": "{typography.h3.letter-spacing}"
+        },
+        "$description": "Titre de sous-section, de modale.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Heading/H3"
+          }
+        }
+      },
+      "h4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.h4.font-size}",
+          "lineHeight": "{typography.h4.line-height}",
+          "fontWeight": "{typography.h4.font-weight}",
+          "letterSpacing": "{typography.h4.letter-spacing}"
+        },
+        "$description": "Titre de carte, de groupe.",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Heading/H4"
+          }
+        }
+      },
+      "h5": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.heading}",
+          "fontSize": "{typography.h5.font-size}",
+          "lineHeight": "{typography.h5.line-height}",
+          "fontWeight": "{typography.h5.font-weight}",
+          "letterSpacing": "{typography.h5.letter-spacing}"
+        },
+        "$description": "Titre de petit bloc, de liste, de panneau latéral (20px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Heading/H5"
+          }
+        }
+      }
+    },
+    "body": {
+      "large": {
+        "regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-large.font-size}",
+            "lineHeight": "{typography.body-large.line-height}",
+            "fontWeight": "{typography.body-weight.regular}",
+            "letterSpacing": "{typography.body-large.letter-spacing}"
+          },
+          "$description": "Texte d’introduction, chapeau, contenu éditorial (18px). Regular.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Large/Regular"
+            }
+          }
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-large.font-size}",
+            "lineHeight": "{typography.body-large.line-height}",
+            "fontWeight": "{typography.body-weight.medium}",
+            "letterSpacing": "{typography.body-large.letter-spacing}"
+          },
+          "$description": "Texte d’introduction, chapeau, contenu éditorial (18px). Medium.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Large/Medium"
+            }
+          }
+        },
+        "semibold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-large.font-size}",
+            "lineHeight": "{typography.body-large.line-height}",
+            "fontWeight": "{typography.body-weight.semibold}",
+            "letterSpacing": "{typography.body-large.letter-spacing}"
+          },
+          "$description": "Texte d’introduction, chapeau, contenu éditorial (18px). SemiBold.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Large/SemiBold"
+            }
+          }
+        }
+      },
+      "default": {
+        "regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-default.font-size}",
+            "lineHeight": "{typography.body-default.line-height}",
+            "fontWeight": "{typography.body-weight.regular}",
+            "letterSpacing": "{typography.body-default.letter-spacing}"
+          },
+          "$description": "Texte courant (16px). Regular.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Default/Regular"
+            }
+          }
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-default.font-size}",
+            "lineHeight": "{typography.body-default.line-height}",
+            "fontWeight": "{typography.body-weight.medium}",
+            "letterSpacing": "{typography.body-default.letter-spacing}"
+          },
+          "$description": "Texte courant (16px). Medium.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Default/Medium"
+            }
+          }
+        },
+        "semibold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-default.font-size}",
+            "lineHeight": "{typography.body-default.line-height}",
+            "fontWeight": "{typography.body-weight.semibold}",
+            "letterSpacing": "{typography.body-default.letter-spacing}"
+          },
+          "$description": "Texte courant (16px). SemiBold.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Default/SemiBold"
+            }
+          }
+        },
+        "medium-underline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-default.font-size}",
+            "lineHeight": "{typography.body-default.line-height}",
+            "fontWeight": "{typography.body-weight.medium}",
+            "letterSpacing": "{typography.body-default.letter-spacing}"
+          },
+          "$description": "Variante soulignée : liens.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Default/Medium-Underline",
+              "textDecoration": "underline"
+            }
+          }
+        }
+      },
+      "small": {
+        "regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-small.font-size}",
+            "lineHeight": "{typography.body-small.line-height}",
+            "fontWeight": "{typography.body-weight.regular}",
+            "letterSpacing": "{typography.body-small.letter-spacing}"
+          },
+          "$description": "Texte dense : tableaux, aides, descriptions (14px). Regular.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Small/Regular"
+            }
+          }
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-small.font-size}",
+            "lineHeight": "{typography.body-small.line-height}",
+            "fontWeight": "{typography.body-weight.medium}",
+            "letterSpacing": "{typography.body-small.letter-spacing}"
+          },
+          "$description": "Texte dense : tableaux, aides, descriptions (14px). Medium.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Small/Medium"
+            }
+          }
+        },
+        "semibold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-small.font-size}",
+            "lineHeight": "{typography.body-small.line-height}",
+            "fontWeight": "{typography.body-weight.semibold}",
+            "letterSpacing": "{typography.body-small.letter-spacing}"
+          },
+          "$description": "Texte dense : tableaux, aides, descriptions (14px). SemiBold.",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Small/SemiBold"
+            }
+          }
+        },
+        "medium-underline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.font-family.body}",
+            "fontSize": "{typography.body-small.font-size}",
+            "lineHeight": "{typography.body-small.line-height}",
+            "fontWeight": "{typography.body-weight.medium}",
+            "letterSpacing": "{typography.body-small.letter-spacing}"
+          },
+          "$description": "Variante soulignée : survol des liens (Button Link, Link).",
+          "$extensions": {
+            "com.figma": {
+              "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+              "textStyle": "Body/Small/Medium-Underline",
+              "textDecoration": "underline"
+            }
+          }
+        }
+      }
+    },
+    "caption": {
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.font-family.body}",
+          "fontSize": "{typography.caption.font-size}",
+          "lineHeight": "{typography.caption.line-height}",
+          "fontWeight": "{typography.caption.font-weight}",
+          "letterSpacing": "{typography.caption.letter-spacing}"
+        },
+        "$description": "Légendes, métadonnées, labels de graphique (12px).",
+        "$extensions": {
+          "com.figma": {
+            "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+            "textStyle": "Caption/Default"
+          }
+        }
+      }
+    }
+  },
+  "shadow": {
+    "xs": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Ombre très légère : boutons, champs.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Shadow/xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Cartes au repos.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Shadow/sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          }
+        },
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Cartes au survol, menus déroulants.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Shadow/md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.shadow.strong}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 10,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 15,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -3,
+            "unit": "px"
+          }
+        },
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Popovers, tooltips riches.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Shadow/lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.shadow.strong}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 20,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 25,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -5,
+            "unit": "px"
+          }
+        },
+        {
+          "color": "{color.shadow.default}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -6,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Modales, drawers.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Shadow/xl"
+        }
+      }
+    }
+  },
+  "focus": {
+    "ring": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.border.focus-ring}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 0,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 0,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 3,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Anneau de focus clavier (3 px).",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Focus/Ring"
+        }
+      }
+    },
+    "ring-error": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{color.border.error-ring}",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 0,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 0,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 3,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Anneau de focus d’un élément en erreur ou destructif (3 px).",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Focus/Ring-Error"
+        }
+      }
+    }
+  },
+  "blur": {
+    "backdrop": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$description": "Flou d’arrière-plan sous un voile ou une barre translucide.",
+      "$extensions": {
+        "com.figma": {
+          "file": "S5w6gdpuYhKzlqm0WW1Xu9",
+          "effectStyle": "Blur/Backdrop"
+        }
+      }
+    }
+  }
+}
